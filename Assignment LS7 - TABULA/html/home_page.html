@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabula</title>
+
+    <!-- FontAwesome 6.1.1 CSS -->
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" ></script>
+
+    <!-- BOOTSTRAP 5.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../css/styles.min.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div id="offCanvas">
+        <a href="#header" class="navbar-brand d-block">
+          <img src="../image/crest.png" alt="CREST LOGO" />
+        </a>
+        <ul class="nav flex-column align-items-center">
+          <li class="nav-item mx-3">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-3 active">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a href="#" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a href="#" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a href="#" class="nav-link">Elements</a>
+          </li>
+        </ul>
+        <div class="contact">
+          <div class="phone-number">
+            <i class="fa fa-phone"></i>
+            <a class="tel" href="tel:(+1) 555 234-8765">(+1) 555 234-8765</a>
+          </div>
+          <div class="social-media">
+            <ul
+              class="social-share list-unstyled d-flex justify-content-center"
+            >
+              <li class="social-item mx-1">
+                <a class="social-link" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="social-item mx-1">
+                <a class="social-link" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="social-item mx-1">
+                <a class="social-link" href="#"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+              <li class="social-item mx-1">
+                <a class="social-link" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="background-img">
+        <img src="../image/yellow_top_wave_01.png" alt="yellow_top_wave_01" />
+      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white custom-navbar">
+          <button id="toggleButton" class="navbar-toggler">
+            <span>
+              <i class="fa fa-bars"></i>
+            </span>
+          </button>
+
+          <a href="#header" class="navbar-brand d-block" id="logo-delete">
+            <img src="../image/crest.png" alt="CREST LOGO" />
+          </a>
+
+          <div class="d-none d-lg-block" id="navbarNav">
+            <div class="navbarNav-inner">
+              <ul class="navbar-nav">
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link not-active">Home</a>
+                  <div class="dropdown special s1">
+                    <ul class="submenu">
+                      <li class="title">
+                        <a href="#">Wavy</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Language</a>
+                      </li>
+                      <li>
+                        <a href="#">Music Courses</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Music School</a>
+                      </li>
+                      <li class="last">
+                        <a href="#">Ballet</a>
+                      </li>
+                    </ul>
+                    <ul class="submenu">
+                      <li class="title">
+                        <a href="#">Sunny</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Draw & Paint</a>
+                      </li>
+                      <li>
+                        <a href="#">Illustration</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Language</a>
+                      </li>
+                      <li class="last">
+                        <a href="#">Acting</a>
+                      </li>
+                    </ul>
+                    <ul class="submenu">
+                      <li class="title">
+                        <a href="#">Shady</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Music</a>
+                      </li>
+                      <li>
+                        <a href="#">Conteamporary Ballet</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Jazz Ballet</a>
+                      </li>
+                      <li class="last">
+                        <a href="#">Acting</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item mx-3 active">
+                  <a href="#" class="nav-link active">About</a>
+                  <div class="dropdown">
+                    <ul class="submenu">
+                      <li>
+                        <a href="#">About Us</a>
+                      </li>
+
+                      <li>
+                        <a href="#">About Me</a>
+                      </li>
+                      <li>
+                        <a class="on" href="#">Our Team</a>
+                      </li>
+
+                      <li>
+                        <a href="#">History</a>
+                      </li>
+                      <li>
+                        <a href="#">Testimonials</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+                      <li>
+                        <a href="#">Coming soon</a>
+                      </li>
+
+                      <li class="last">
+                        <a href="#">404</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link not-active">Courses</a>
+                  <div class="dropdown">
+                    <ul class="submenu">
+                      <li>
+                        <a href="#">Courses</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Single Course</a>
+                      </li>
+                      <li>
+                        <a href="#">Schedule</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Workshop</a>
+                      </li>
+                      <li>
+                        <a href="#">Workshops & Events</a>
+                      </li>
+
+                      <li class="last">
+                        <a href="#">Get Quote</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link not-active">Blog</a>
+                  <div class="dropdown">
+                    <ul class="submenu">
+                      <li>
+                        <a href="#">Standard View</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Columns View</a>
+                      </li>
+                      <li>
+                        <a class="on" href="#">Our Team</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Simple View</a>
+                      </li>
+                      <li>
+                        <a href="#">Grid View</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Single Post</a>
+                      </li>
+                      <li>
+                        <a href="#">Galleries</a>
+                      </li>
+
+                      <li class="last">
+                        <a href="#">404</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link not-active">Shop</a>
+                  <div class="dropdown">
+                    <ul class="submenu right">
+                      <li>
+                        <a href="#">Products</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Cart</a>
+                      </li>
+                      <li>
+                        <a href="#">Checkout</a>
+                      </li>
+
+                      <li class="last">
+                        <a href="#">My Account</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link not-active">Elements</a>
+                  <div class="dropdown special s2">
+                    <div class="content">
+                      <ul class="submenu right">
+                        <li class="title">
+                          <a href="#">Base</a>
+                        </li>
+
+                        <li>
+                          <a href="#">Headlines</a>
+                        </li>
+                        <li>
+                          <a href="#">ButtonS & Icons</a>
+                        </li>
+
+                        <li>
+                          <a href="#">Images</a>
+                        </li>
+                        <li>
+                          <a href="#">Oganic Animation</a>
+                        </li>
+                        <li>
+                          <a href="#">Inner Row & Column</a>
+                        </li>
+                        <li class="last">
+                          <a href="#">Countdown & Counter</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="content">
+                      <ul class="submenu right">
+                        <li class="title">
+                          <a href="#">Common</a>
+                        </li>
+
+                        <li>
+                          <a href="#">Price List & Progress Bar</a>
+                        </li>
+                        <li>
+                          <a href="#">Google Maps</a>
+                        </li>
+
+                        <li>
+                          <a href="#">Service</a>
+                        </li>
+                        <li>
+                          <a href="#">Accordions & Tabs</a>
+                        </li>
+
+                        <li>
+                          <a href="#">Card & Event</a>
+                        </li>
+                        <li class="last">
+                          <a href="#">Schedule & Step Line</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="content">
+                      <ul class="submenu right">
+                        <li class="title">
+                          <a href="#">Presentational</a>
+                        </li>
+
+                        <li>
+                          <a href="#">Team</a>
+                        </li>
+                        <li>
+                          <a href="#">Slider</a>
+                        </li>
+
+                        <li>
+                          <a href="#">Testimonials</a>
+                        </li>
+                        <li>
+                          <a href="#">Cost Calculator</a>
+                        </li>
+                        <li>
+                          <a href="#">Social Media</a>
+                        </li>
+                        <li class="last">
+                          <a href="#">Blog Layouts</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- CONTACT -->
+              <div class="contact">
+                <div class="phone-number">
+                  <i class="fa fa-phone"></i>
+
+                  <a class="tel" href="tel:(+1) 555 234-8765"
+                    >(+1) 555 234-8765</a
+                  >
+                </div>
+                <div class="social-media">
+                  <ul class="social-share list-unstyled">
+                    <li class="social-item mx-1">
+                      <a class="social-link" href="#"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li class="social-item mx-1">
+                      <a class="social-link" href="#"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li class="social-item mx-1">
+                      <a class="social-link" href="#"
+                        ><i class="fab fa-youtube"></i
+                      ></a>
+                    </li>
+                    <li class="social-item mx-1">
+                      <a class="social-link" href="#"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col col1 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 "
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 2s;
+              animation-delay: 0.2s;
+              animation-name: fadeInLeft;
+            "
+          >
+            <div class="title">
+              <h2>ABOUT US</h2>
+              <h1>The language teaching experts</h1>
+            </div>
+          </div>
+          <div
+            class="col col2 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 "
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 2s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            "
+          >
+            <img class="" src="../image/hero_team.png" alt="hero_team" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="teachers" id="teachers">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 2s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="card" style="width: 18rem">
+                <div class="card-top">
+                  <img
+                    src="../image/teacher_1.jpg"
+                    class="card-img-top"
+                    alt="teacher_1"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="nationality">ITALIAN</h2>
+                  <h1 class="name">July Roberts</h1>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+            data-wow-duration="4s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 4s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="card" style="width: 18rem">
+                <div class="card-top">
+                  <img
+                    src="../image/teacher_2.jpg"
+                    class="card-img-top"
+                    alt="teacher_2"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="nationality">FRENCH</h2>
+                  <h1 class="name">Jon Stone</h1>
+                  <p class="card-text">
+                    Nanotechnology immersion along the information.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+            data-wow-duration="6s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 6s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="card" style="width: 18rem">
+                <div class="card-top">
+                  <img
+                    src="../image/teacher_3.jpg"
+                    class="card-img-top"
+                    alt="teacher_3"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="nationality">JAPANESE</h2>
+                  <h1 class="name">Emma Stone</h1>
+                  <p class="card-text">
+                    Bring to the table win-win survival strategies to ensure.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+            data-wow-duration="8s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 8s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="card" style="width: 18rem">
+                <div class="card-top">
+                  <img
+                    src="../image/teacher_4.jpg"
+                    class="card-img-top"
+                    alt="teacher_4"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="nationality">CHINESE</h2>
+                  <h1 class="name">Mark Lee</h1>
+                  <p class="card-text">
+                    Proactive domination. At the end of the day, going forward.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 2s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="card" style="width: 18rem">
+                <div class="card-top">
+                  <img
+                    src="../image/teacher_5.jpg"
+                    class="card-img-top"
+                    alt="teacher_5"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="nationality">RUSSIAN</h2>
+                  <h1 class="name">John Doe</h1>
+                  <p class="card-text">
+                    A new normal that has evolved from generation X.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+            data-wow-duration="4s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 4s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="card" style="width: 18rem">
+                <div class="card-top">
+                  <img
+                    src="../image/teacher_6.jpg"
+                    class="card-img-top"
+                    alt="teacher_6"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="nationality">SWEDEN</h2>
+                  <h1 class="name">Jane Smith</h1>
+                  <p class="card-text">
+                    Heading towards a streamlined cloud solution.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+            data-wow-duration="6s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 6s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="card" style="width: 18rem">
+                <div class="card-top">
+                  <img
+                    src="../image/teacher_7.jpg"
+                    class="card-img-top"
+                    alt="teacher_7"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="nationality">SPANISH</h2>
+                  <h1 class="name">Hanna Alverez</h1>
+                  <p class="card-text">
+                    Content in real-time will have multiple touchpoints.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+            data-wow-duration="8s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 8s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="card" style="width: 18rem">
+                <div class="card-top">
+                  <img
+                    src="../image/teacher_8.jpg"
+                    class="card-img-top"
+                    alt="teacher_8"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="nationality">ITALIAN</h2>
+                  <h1 class="name">July Roberts</h1>
+                  <p class="card-text">
+                    Capitalize on low hanging fruit to identify a ballpark.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="course">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col col1 col-12 col-sm-12 col-md-12 col-lg-6 "
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 2s;
+              animation-delay: 0.2s;
+              animation-name: fadeInLeft;
+            ">
+              <img
+                class="w-100"
+                src="../image/conatct_inner.png"
+                alt="conatct_inner"
+              />
+            </div>
+            <div class="col col2 col-12 col-sm-12 col-md-12 col-lg-6"
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+            style="
+              visibility: visible;
+              animation-duration: 2s;
+              animation-delay: 0.2s;
+              animation-name: fadeIn;
+            ">
+              <div class="container w-75">
+                <div class="form">
+                  <div class="content">
+                    <div class="title">
+                      <h1>Find Your Course</h1>
+                    </div>
+                    <div class="body">
+                      <div class="row row1 form-group">
+                        <div class="col col-6 name-form">
+                          <div class="form-control">
+                            <span class="icon">
+                              <i class="fa fa-user-tie"></i>
+                            </span>
+                            <span class="name">
+                              <input type="text" placeholder="Name" />
+                            </span>
+                          </div>
+                        </div>
+                        <div class="col col-6 email-form">
+                          <div class="form-control">
+                            <span class="icon">
+                              <i class="fa fa-envelope"></i>
+                            </span>
+                            <span class="email">
+                              <input type="text" placeholder="E-mail" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row row2 form-group">
+                        <div class="col col-12 Eng-form form-control">
+                          <span class="icon">
+                            <i class="fa fa-user-graduate"></i>
+                          </span>
+                          <span class="Eng">
+                            <select name="Your option" id="Eng">
+                              <option value="English">English</option>
+                              <option value="French">French</option>
+                              <option value="Spanish">Spanish</option>
+                              <option value="German">German</option>
+                            </select>
+                          </span>
+                        </div>
+                      </div>
+
+                      <div class="row row3 form-group">
+                        <div class="col col-12 Mess-form form-control">
+                          <span class="icon">
+                            <i class="fa fa-comment-alt"></i>
+                          </span>
+                          <span class="Mess">
+                            <textarea
+                              class="form-control"
+                              name=""
+                              id=""
+                              cols="30"
+                              rows="2"
+                              placeholder="Message"
+                            ></textarea>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="send">
+                      <div class="button">
+                        <a href="#">SEND</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="container-fluid">
+        <div class="container ">
+          <div class="container container-row">
+            <div class="row">
+              <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+              style="
+                visibility: visible;
+                animation-duration: 2s;
+                animation-delay: 0.2s;
+                animation-name: fadeIn;
+              ">
+                <div class="content">
+                  <div class="footer-link">
+                    <h4>Contact Us</h4>
+                    <ul class="ft-link">
+                      <li>
+                        <i class="fa fa-map-marker-alt"></i
+                        ><a href="#">admin@example.com</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-phone"></i
+                        ><a href="tel:+2342 5446 67">+2342 5446 67</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-clock"></i
+                        ><a href="#">Monday - Friday: 8 AM - 5 PM</a>
+                      </li>
+                    </ul>
+                    <div class="social-share-inner">
+                      <ul class="social-share">
+                        <li class="icon">
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="icon">
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="icon">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="icon">
+                          <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+              data-wow-duration="4s"
+              data-wow-delay="0.2s"
+              style="
+                visibility: visible;
+                animation-duration: 4s;
+                animation-delay: 0.2s;
+                animation-name: fadeIn;
+              ">
+                <div class="content">
+                  <h4>Quick Link</h4>
+
+                  <div class="list">
+                    <ul class="ft-link">
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#teachers">Courses</a>
+                      </li>
+
+                      <li>
+                        <a href="#">Schedule</a>
+                      </li>
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+              data-wow-duration="6s"
+              data-wow-delay="0.2s"
+              style="
+                visibility: visible;
+                animation-duration: 6s;
+                animation-delay: 0.2s;
+                animation-name: fadeIn;
+              ">
+                <div class="content">
+                  <h4>About</h4>
+
+                  <div class="list">
+                    <ul class="ft-link">
+                      <li>
+                        <a href="#">About Us</a>
+                      </li>
+                      <li>
+                        <a href="#">Events</a>
+                      </li>
+                      <li>
+                        <a href="#">Get Quote</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 "
+              data-wow-duration="8s"
+              data-wow-delay="0.2s"
+              style="
+                visibility: visible;
+                animation-duration: 8s;
+                animation-delay: 0.2s;
+                animation-name: fadeIn;
+              ">
+                <div class="content">
+                  <h4>Newsletter</h4>
+
+                  <div class="listlast">
+                    <ul class="ft-link">
+                      <li>
+                        <input
+                          type="text"
+                          class="yourmail"
+                          placeholder="Your email"
+                        />
+                      </li>
+                      <li>
+                        <div class="subcribe">
+                          <a href="#footer">SUBSCRIBE</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
